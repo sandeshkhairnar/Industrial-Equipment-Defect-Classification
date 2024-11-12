@@ -32,13 +32,13 @@ This project focuses on developing a deep learning model to classify images of i
 ```bash
 git clone https://github.com/sandeshkhairnar/Industrial-Equipment-Defect-Classification.git
 cd defect-classification
-
+---
 ## 2.  Install Dependencies
    Make sure you have Python and pip installed, then run:
-
 ```bash
 pip install tensorflow numpy matplotlib pandas
 
+---
 ## 3. Prepare the Dataset
 - Download and extract the dataset.
 - Upload it to your Google Drive.
@@ -49,19 +49,23 @@ drive.mount('/content/drive')
 
 -Ensure the dataset path is correctly set in the notebook.
 
+---
+
 ## 4. Run the Jupyter Notebook
 -Open model_training.ipynb in Google Colab.
 -Adjust hyperparameters as needed.
 -Run the notebook cells sequentially to train and evaluate the model.
 
-
+---
 ## 🧑‍💻 Model Training & Compilation
 
 - a pre-trained ResNet50 model is used as a feature extractor for classifying images of industrial equipment into two categories: defective or non-defective. The base model (ResNet50) is frozen to prevent retraining, and a series of additional layers (global average pooling, dense layers, dropout, and sigmoid output) are added to adapt the network to the binary classification task. The model is then compiled and ready for training on the target dataset.
 
+---
+
 ## 📊 Model Evaluation
 
-
+---
 ## 📈 Results & Insights
 
 -The model showed strong performance on the training data but exhibited signs of overfitting on the validation data.
