@@ -32,11 +32,13 @@ This project focuses on developing a deep learning model to classify images of i
 ```bash
 git clone https://github.com/sandeshkhairnar/Industrial-Equipment-Defect-Classification.git
 cd defect-classification
+```
 ---
 ## 2.  Install Dependencies
    Make sure you have Python and pip installed, then run:
 ```bash
 pip install tensorflow numpy matplotlib pandas
+```
 
 ---
 ## 3. Prepare the Dataset
@@ -46,7 +48,7 @@ pip install tensorflow numpy matplotlib pandas
 ```bash
 from google.colab import drive
 drive.mount('/content/drive')
-
+```
 -Ensure the dataset path is correctly set in the notebook.
 
 ---
