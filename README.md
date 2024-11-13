@@ -54,9 +54,9 @@ drive.mount('/content/drive')
 ---
 
 ## 4. Run the Jupyter Notebook
--Open model_training.ipynb in Google Colab.
--Adjust hyperparameters as needed.
--Run the notebook cells sequentially to train and evaluate the model.
+- Open model_training.ipynb in Google Colab.
+- Adjust hyperparameters as needed.
+- Run the notebook cells sequentially to train and evaluate the model.
 
 ---
 ## 🧑‍💻 Model Training & Compilation
