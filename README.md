@@ -59,6 +59,7 @@ drive.mount('/content/drive')
 - Run the notebook cells sequentially to train and evaluate the model.
 
 ---
+
 ## 🧑‍💻 Model Training & Compilation
 
 - a pre-trained ResNet50 model is used as a feature extractor for classifying images of industrial equipment into two categories: defective or non-defective. The base model (ResNet50) is frozen to prevent retraining, and a series of additional layers (global average pooling, dense layers, dropout, and sigmoid output) are added to adapt the network to the binary classification task. The model is then compiled and ready for training on the target dataset.
