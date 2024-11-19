@@ -5,6 +5,8 @@ This project focuses on developing a deep learning model to classify images of i
 
 ---
 
+
+
 ## 🗂️ Project Structure
 - **Dataset**:
   - Organized into `train` and `test` directories with subfolders for 'defective' and 'non-defective' classes.
